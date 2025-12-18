@@ -6,7 +6,8 @@ Dashboard interativo e responsivo para consulta da classificação de pilotos da
 
 ## 🚀 Demonstração
 O projeto está disponível online através do GitHub Pages:
-[**Site Aqui**](https://allisonavs.github.io/Classificacao-F1/)
+
+<a href="https://allisonavs.github.io/Classificacao-F1/" target="_blank"><strong>Site Aqui</strong></a>
 
 ## ✨ Funcionalidades
 - **Busca Histórica:** Consulta de classificações de qualquer temporada entre 1950 e 2025.
@@ -16,6 +17,10 @@ O projeto está disponível online através do GitHub Pages:
 - **Design Imersivo:** Fundo personalizado com efeito de profundidade e interface otimizada para leitura.
 
 ## 🛠️ Tecnologias Utilizadas
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+
 - **HTML5**: Estrutura semântica da aplicação.
 - **CSS3**: Estilização avançada, incluindo Flexbox, posicionamento `sticky` e filtros de transparência (RGBA).
 - **JavaScript**: 
@@ -33,4 +38,4 @@ O projeto está disponível online através do GitHub Pages:
 🎓 Sobre o Autor
 Sou estudante de Análise e Desenvolvimento de Sistemas em Valparaíso de Goiás, com conclusão prevista para dezembro de 2025. Atualmente, uno a minha experiência em Design e Social Media na OnTarget com o desenvolvimento de software para criar interfaces que são simultaneamente funcionais e visualmente impactantes.
 
-Desenvolvido com 🏎️ e ☕ por [**Allisonavs**](https://www.linkedin.com/in/allisonavs/)
+Desenvolvido com 🏎️ e ☕ por <a href="https://www.linkedin.com/in/allisonavs/" target="_blank"><strong>Allisonavs</strong></a>
