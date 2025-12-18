@@ -1,7 +1,9 @@
 const tabela = document.getElementById("corpo-tabela");
 const avisoCarregando = document.getElementById("loading");
-const inputAno = document.getElementById("ano-input");
 const btnBuscar = document.getElementById("btn-buscar");
+const filtroInput = document.getElementById("ano-filtro-input");
+const listaAnosUl = document.getElementById("lista-anos-dropdown");
+
 const coresEquipes = {
   "Alpine F1 Team": "#0093CC",
   "Aston Martin": "#229971",
@@ -40,10 +42,54 @@ async function carregarClassificacao(ano) {
   }
 }
 
+// Gerar lista de anos de 1950 a 2025
+function gerarListaAnos() {
+  for (let ano = 2025; ano >= 1950; ano--) {
+    const li = document.createElement("li");
+    li.textContent = ano;
+    li.addEventListener("click", () => selecionarAno(ano));
+    listaAnosUl.appendChild(li);
+  }
+}
+
+function selecionarAno(ano) {
+  filtroInput.value = ano;
+  listaAnosUl.style.display = "none";
+  carregarClassificacao(ano);
+}
+
+filtroInput.addEventListener("keyup", () => {
+  const termo = filtroInput.value.toLowerCase();
+  const itens = listaAnosUl.getElementsByTagName("li");
+
+  listaAnosUl.style.display = "block";
+
+  for (let item of itens) {
+    const texto = item.textContent;
+    if (texto.includes(termo)) {
+      item.style.display = "";
+    } else {
+      item.style.display = "none";
+    }
+  }
+});
+
+filtroInput.addEventListener("focus", () => {
+  listaAnosUl.style.display = "block";
+});
+
+document.addEventListener("click", (e) => {
+  if (!document.querySelector(".ano-selector-container").contains(e.target)) {
+    listaAnosUl.style.display = "none";
+  }
+});
+
+gerarListaAnos();
+
 carregarClassificacao(2025);
 
 btnBuscar.addEventListener("click", () => {
-  const anoEscolhido = inputAno.value;
+  const anoEscolhido = filtroInput.value;
   if(anoEscolhido >= 1950 && anoEscolhido <= 2025) {
     carregarClassificacao(anoEscolhido);
   } else {

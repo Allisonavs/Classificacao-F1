@@ -9,20 +9,21 @@
   <body>
     <div class="container">
       <header>
-        <h1>Classificação F1 2025</h1>
+        <h1>Classificação F1</h1>
         <p>Acompanhando o desempenho dos melhores pilotos do mundo.</p>
       </header>
 
       <main>
         <div class="controles">
-          <input
-            type="number"
-            id="ano-input"
-            placeholder="Ex: 2008"
-            value="2025"
-            min="1950"
-            max="2025"
-          />
+            <div class="ano-selector-container">
+                <input 
+                type="text"
+                id="ano-filtro-input"
+                placeholder="Procure o ano (1950-2025)..."
+                autocomplete="off">
+
+                <ul id="lista-anos-dropdown" class="dropdown-anos"></ul>
+            </div>
           <button id="btn-buscar">Buscar Ano</button>
         </div>
         <table id="tabela-classificacao">
