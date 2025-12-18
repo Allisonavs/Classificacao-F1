@@ -1,13 +1,14 @@
 # 🏁 Classificação F1 (F1 Standings Dashboard)
 
-![F1 Dashboard Preview](img/preview.png)>
-)
+![F1 Dashboard Preview](img/preview.png)
+
 
 Dashboard interativo e responsivo para consulta da classificação de pilotos da Fórmula 1, abrangendo dados históricos desde 1950 até à temporada atual (2025).
 
 ## 🚀 Demonstração
 O projeto está disponível online através do GitHub Pages:
-[**Site Aqui**](https://allisonavs.github.io/Classificacao-F1/)
+
+<a href="https://allisonavs.github.io/Classificacao-F1/" target="_blank"><strong>Site Aqui</strong></a>
 
 ## ✨ Funcionalidades
 - **Busca Histórica:** Consulta de classificações de qualquer temporada entre 1950 e 2025.
@@ -34,4 +35,4 @@ O projeto está disponível online através do GitHub Pages:
 ## Sobre o Autor
 Formado em Análise e Desenvolvimento de sistema. Atualmente, uno a minha experiência em Design e Social Media com o desenvolvimento de software para criar interfaces que são simultaneamente funcionais e visualmente impactantes.
 
-Desenvolvido com 🏎️ e ☕ por [**Allisonavs**](https://www.linkedin.com/in/allisonavs/)
+Desenvolvido com 🏎️ e ☕ por <a href="https://www.linkedin.com/in/allisonavs/" target="_blank"><strong>Allisonavs</strong></a>
