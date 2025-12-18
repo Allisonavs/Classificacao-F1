@@ -7,7 +7,7 @@ Dashboard interativo e responsivo para consulta da classificação de pilotos da
 
 ## 🚀 Demonstração
 O projeto está disponível online através do GitHub Pages:
-[**Aceder ao Site Aqui**](https://allisonavs.github.io/Classificacao-F1/)
+[**Site Aqui**](https://allisonavs.github.io/Classificacao-F1/)
 
 ## ✨ Funcionalidades
 - **Busca Histórica:** Consulta de classificações de qualquer temporada entre 1950 e 2025.
