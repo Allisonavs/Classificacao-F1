@@ -5,20 +5,28 @@ body {
     padding: 20px;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #333;
 }
 
 .container {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
     max-width: 800px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
 header h1 {
     color: #e10600;
     text-align: center;
+    text-shadow: #8d8c8c 2px 2px 4px  ;
 }
 
 header p {
@@ -134,4 +142,5 @@ tbody tr:hover {
 .dropdown-anos li:hover {
     background-color: #e10600;
     color: white;
+    transition: all 0.3s ease;
 }
