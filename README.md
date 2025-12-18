@@ -1,6 +1,6 @@
 # 🏁 Classificação F1 (F1 Standings Dashboard)
 
-![F1 Dashboard Preview](<img width="1902" height="966" alt="image" src="https://github.com/user-attachments/assets/0905066f-6ed3-43e2-9b3b-697f8a87f950" />
+![F1 Dashboard Preview](img/preview.png)>
 )
 
 Dashboard interativo e responsivo para consulta da classificação de pilotos da Fórmula 1, abrangendo dados históricos desde 1950 até à temporada atual (2025).
