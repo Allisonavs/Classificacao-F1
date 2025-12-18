@@ -17,11 +17,11 @@ O projeto está disponível online através do GitHub Pages:
 - **Identidade Visual:** Linhas da tabela destacadas com as cores oficiais de cada escuderia (Ferrari, McLaren, Red Bull, etc.).
 - **Design Imersivo:** Fundo personalizado com efeito de profundidade e interface otimizada para leitura.
 
+## 🛠️ Tecnologias Utilizadas
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 🛠️ Tecnologias Utilizadas
 - **HTML5**: Estrutura semântica da aplicação.
 - **CSS3**: Estilização avançada, incluindo Flexbox, posicionamento `sticky` e filtros de transparência (RGBA).
 - **JavaScript**: 
