@@ -28,3 +28,10 @@ O projeto está disponível online através do GitHub Pages:
 1. Clone este repositório:
    ```bash
    git clone [https://github.com/Allisonavs/Classificacao-F1.git](https://github.com/Allisonavs/Classificacao-F1.git)
+
+2. Abra o ficheiro index.html no seu navegador.
+
+🎓 Sobre o Autor
+Sou estudante de Análise e Desenvolvimento de Sistemas em Valparaíso de Goiás, com conclusão prevista para dezembro de 2025. Atualmente, uno a minha experiência em Design e Social Media na OnTarget com o desenvolvimento de software para criar interfaces que são simultaneamente funcionais e visualmente impactantes.
+
+Desenvolvido com 🏎️ e ☕ por [**Allisonavs**](https://www.linkedin.com/in/allisonavs/)
