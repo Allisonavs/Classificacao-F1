@@ -31,7 +31,7 @@ O projeto está disponível online através do GitHub Pages:
 ## 📦 Como correr o projeto localmente
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/Allisonavs/Classificacao-F1.git](https://github.com/Allisonavs/Classificacao-F1.git)
+   git clone https://github.com/Allisonavs/Classificacao-F1.git
 
 2. Abra o ficheiro index.html no seu navegador.
 
