@@ -36,6 +36,6 @@ O projeto está disponível online através do GitHub Pages:
 2. Abra o ficheiro index.html no seu navegador.
 
 ## Sobre o Autor
-Formado em Análise e Desenvolvimento de Sistemas. Atualmente, uno a minha experiência em Design e Social Media na OnTarget com o desenvolvimento de software para criar interfaces que são simultaneamente funcionais e visualmente impactantes.
+Formado em Análise e Desenvolvimento de Sistemas. Atualmente, uno a minha experiência em Design e Social Media com o desenvolvimento de software para criar interfaces que são simultaneamente funcionais e visualmente impactantes.
 
 Desenvolvido com 🏎️ e ☕ por <a href="https://www.linkedin.com/in/allisonavs/" target="_blank"><strong>Allisonavs</strong></a>
