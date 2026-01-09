@@ -72,15 +72,15 @@ Este projeto utiliza **ES6 Modules**, o que exige que ele seja executado em um a
 
 3. Executar um servidor local
 
-Escolha a opção que preferir:
+  Escolha a opção que preferir:
 
-VS Code (Recomendado): Instale a extensão Live Server, abra a pasta do projeto e clique em "Go Live" na barra inferior.
+  VS Code (Recomendado): Instale a extensão Live Server, abra a pasta do projeto e clique em "Go Live" na barra inferior.
 
-Python: Se tiver Python instalado, execute python -m http.server 8000.
+  Python: Se tiver Python instalado, execute python -m http.server 8000.
 
-Node.js: Utilize o comando npx serve ..
+  Node.js: Utilize o comando npx serve ..
 
-Nota: Abrir o arquivo index.html diretamente pelo explorador de arquivos (protocolo file://) causará erros de segurança (CORS) e o projeto não funcionará.
+  - Nota: Abrir o arquivo index.html diretamente pelo explorador de arquivos (protocolo file://) causará erros de segurança (CORS) e o projeto não funcionará.
 
 ## Sobre o Autor
 Formado em Análise e Desenvolvimento de Sistemas. Atualmente, uno a minha experiência em Design e Social Media com o desenvolvimento de software para criar interfaces que são simultaneamente funcionais e visualmente impactantes.
