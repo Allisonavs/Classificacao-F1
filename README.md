@@ -67,7 +67,7 @@ Este projeto utiliza **ES6 Modules**, o que exige que ele seja executado em um a
    git clone https://github.com/Allisonavs/Classificacao-F1.git
 
 2. Acesse a pasta
-  '''bash
+    ```bash
     cd Classificacao-F1
 
 3. Executar um servidor local
