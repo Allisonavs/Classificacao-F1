@@ -28,6 +28,22 @@ O projeto está disponível online através do GitHub Pages:
   - Manipulação dinâmica do DOM.
   - Tratamento de dados assíncronos e lógica de filtragem com `Set` e `isNaN`.
 
+## 🧠 Desafios Técnicos e Soluções
+
+Durante o desenvolvimento deste dashboard, enfrentei desafios comuns no consumo de APIs reais que exigiram soluções lógicas estruturadas:
+
+### 1. Tratamento de Dados Inconsistentes (Casos Especiais)
+**Desafio:** A API Ergast retorna a posição dos pilotos como números, mas em casos de desclassificação (ex: Schumacher em 1997) ou abandono, o valor retornado é uma string (ex: "D" ou "R"). Isso causava erros de exibição como "undefinedº".
+**Solução:** Implementei uma lógica utilizando a função `isNaN()` para verificar se o dado de posição é numérico. Caso não seja, o sistema identifica o "caso especial", aplica uma formatação visual distinta (itálico e fundo cinza) e prepara a sigla para a legenda dinâmica.
+
+### 2. Mapeamento de Identidade Visual Dinâmica
+**Desafio:** Associar visualmente cada piloto à sua escuderia sem sobrecarregar a interface com logos pesadas, mantendo a performance do site.
+**Solução:** Criei um dicionário de dados (`Objeto Literal`) que mapeia os nomes das construtoras para seus códigos hexadecimais oficiais. Durante o loop de renderização, o JavaScript aplica dinamicamente uma borda lateral colorida em cada linha da tabela, facilitando a identificação imediata por parte do usuário.
+
+### 3. Otimização da Legenda Dinâmica com `Set`
+**Desafio:** Exibir uma legenda explicativa apenas para as siglas que aparecem na busca atual, evitando duplicidade e poluição visual (ex: não exibir "R" se nenhum piloto abandonou naquela temporada).
+**Solução:** Utilizei a estrutura de dados `Set` do JavaScript para coletar siglas únicas durante o processamento da lista de pilotos. Por ser uma estrutura que não permite valores duplicados, ela garante que a legenda seja montada de forma limpa e eficiente, aparecendo apenas quando necessária.
+
 ## 📦 Como correr o projeto localmente
 1. Clone este repositório:
    ```bash
