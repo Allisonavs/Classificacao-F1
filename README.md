@@ -20,6 +20,7 @@ O projeto está disponível online através do GitHub Pages:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![ES6+](https://img.shields.io/badge/ES6%2B-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 - **HTML5**: Estrutura semântica da aplicação.
 - **CSS3**: Estilização avançada, incluindo Flexbox, posicionamento `sticky` e filtros de transparência (RGBA).
@@ -27,6 +28,7 @@ O projeto está disponível online através do GitHub Pages:
   - Consumo da **API Ergast/Jolpi** via `fetch`.
   - Manipulação dinâmica do DOM.
   - Tratamento de dados assíncronos e lógica de filtragem com `Set` e `isNaN`.
+  - ES6 Modules: Organização do código em arquivos independentes (import/export), promovendo a separação de responsabilidades (Clean Code).
 
 ## 🧠 Desafios Técnicos e Soluções
 
@@ -44,12 +46,41 @@ Durante o desenvolvimento deste dashboard, enfrentei desafios comuns no consumo 
 **Desafio:** Exibir uma legenda explicativa apenas para as siglas que aparecem na busca atual, evitando duplicidade e poluição visual (ex: não exibir "R" se nenhum piloto abandonou naquela temporada).
 **Solução:** Utilizei a estrutura de dados `Set` do JavaScript para coletar siglas únicas durante o processamento da lista de pilotos. Por ser uma estrutura que não permite valores duplicados, ela garante que a legenda seja montada de forma limpa e eficiente, aparecendo apenas quando necessária.
 
+### 4. Arquitetura Modular e Manutenibilidade
+**Desafio**: À medida que o projeto crescia, o arquivo de script principal tornava-se denso e difícil de dar manutenção, misturando lógica de interface, chamadas de API e configurações de dados. 
+**Solução**: Refatorei o código utilizando ES6 Modules, dividindo a aplicação em camadas de responsabilidade:
+
+- api.js: Exclusivo para comunicação com o servidor e tratamento de dados brutos.
+
+- ui.js: Responsável apenas pela manipulação do DOM e feedback visual (loading/tabela).
+
+- yearSelector.js: Componente lógico para o seletor de anos.
+
+- constants.js: Armazenamento de dados estáticos e mapeamentos. Essa abordagem permitiu um código muito mais limpo, fácil de testar e escalável, seguindo o princípio de Responsabilidade Única (SRP).
+
 ## 📦 Como correr o projeto localmente
+
+Este projeto utiliza **ES6 Modules**, o que exige que ele seja executado em um ambiente de servidor local para que as importações entre os arquivos funcionem corretamente.
+
 1. Clone este repositório:
    ```bash
    git clone https://github.com/Allisonavs/Classificacao-F1.git
 
-2. Abra o ficheiro index.html no seu navegador.
+2. Acesse a pasta
+  '''bash
+    cd Classificacao-F1
+
+3. Executar um servidor local
+
+Escolha a opção que preferir:
+
+VS Code (Recomendado): Instale a extensão Live Server, abra a pasta do projeto e clique em "Go Live" na barra inferior.
+
+Python: Se tiver Python instalado, execute python -m http.server 8000.
+
+Node.js: Utilize o comando npx serve ..
+
+Nota: Abrir o arquivo index.html diretamente pelo explorador de arquivos (protocolo file://) causará erros de segurança (CORS) e o projeto não funcionará.
 
 ## Sobre o Autor
 Formado em Análise e Desenvolvimento de Sistemas. Atualmente, uno a minha experiência em Design e Social Media com o desenvolvimento de software para criar interfaces que são simultaneamente funcionais e visualmente impactantes.
