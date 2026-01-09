@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div class="container">
       <header>
         <h1>Classificação F1</h1>
@@ -15,6 +16,7 @@
 
       <main>
         <div class="controles">
+          
             <div class="ano-selector-container">
                 <input 
                 type="text"
@@ -24,8 +26,10 @@
 
                 <ul id="lista-anos-dropdown" class="dropdown-anos"></ul>
             </div>
+
           <button id="btn-buscar">Buscar Ano</button>
         </div>
+
         <table id="tabela-classificacao">
           <thead>
             <tr>
@@ -45,6 +49,6 @@
       </main>
     </div>
 
-    <script src="script.js"></script>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>

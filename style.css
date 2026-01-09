@@ -144,3 +144,13 @@ tbody tr:hover {
     color: white;
     transition: all 0.3s ease;
 }
+
+.linha-especial {
+    background-color: #e0e0e0 !important;
+    color: #777;                          
+    font-style: italic;                   
+}
+
+.linha-especial:hover {
+    background-color: #d6d6d6 !important;
+}
